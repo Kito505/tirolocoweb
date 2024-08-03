@@ -54,7 +54,7 @@ img{
 }
 
 .container{
-    width: 100%;
+    width: 90%;
     margin: auto;
     background-color: rgba(0, 0, 0);
 }
@@ -771,6 +771,10 @@ img{
 
     .ch-ico{
         background-image: url(img/Banner\ Trasero\ de\ los\ Canales\ -\ 614.png);
+    }
+
+    .body{
+        width: 700px;
     }
 
     .ch-ico img{
