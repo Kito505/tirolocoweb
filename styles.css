@@ -56,7 +56,7 @@ img{
 .container{
     width: 90%;
     margin: auto;
-    background-color: rgba(0, 0, 0);
+    background-color: rgba(0, 0, 0, 0.281);
 }
 
 /* NAVEGATION */
@@ -756,6 +756,7 @@ img{
     padding: 20px 0;
     text-align: center;
     padding-bottom: 20px;
+    margin-top: 120px;
 }
 
 @media (max-width: 700px) {
@@ -771,10 +772,6 @@ img{
 
     .ch-ico{
         background-image: url(img/Banner\ Trasero\ de\ los\ Canales\ -\ 614.png);
-    }
-
-    .body{
-        width: 700px;
     }
 
     .ch-ico img{
@@ -822,8 +819,6 @@ img{
     .title-tl{
         bottom: 105px;
         right: -110px;
-        border: rgba(255, 59, 59, 0.822) 3px solid;
-        color: rgba(255, 40, 40, 0.829);
     }
     
     .title-lt{
@@ -834,8 +829,6 @@ img{
     .title-ptl{
         bottom: 105px;
         right: -115px;
-        border: rgba(226, 122, 226, 0.849) 3px solid;
-        color: rgba(223, 99, 206, 0.801);
     }
     
     .title-tlp{
@@ -879,6 +872,122 @@ img{
 
     .fr-2 h1{
         font-size: 15px;
+    }
+
+    .anuncio-uwu-txt{
+        font-size: 40px;
+    }
+
+    .mousepad {
+        height: 180px;
+        top: 170px;
+        left: -180px;
+    }
+
+    .mousepad img{
+        width: 150px;
+        height: 180px;
+    }
+
+    .cover {
+        height: 180px;
+        left: -480px;
+        top: 80px;
+    }
+
+    .cover img{
+        width: 130px;
+        height: 180px;
+    }
+
+    .mousepadxxl {
+        height: 160px;
+        top: 365px;
+        left: -880px;
+    }
+
+    .mousepadxxl img{
+        width: 280px;
+        height: 160px;
+    }
+
+    .tirosing {
+        height: 200px;
+        left: -1150px;
+        top: 165px;
+    }
+
+    .tirosing img{
+        width: 120px;
+        height: 200px;
+    }
+
+    .stickers {
+        height: 170px;
+        left: -1160px;
+        top: 180px;
+    }
+
+    .stickers img{
+        width: 190px;
+        height: 170px;
+    }
+
+    .mousepad-txt{    
+        height: 30px;
+        top: 370px;
+        left: -1155px;
+    }
+
+    .mousepad-txt h1{
+        height: 30px;
+        font-size: 30px;
+    }
+
+    .cover-txt{    
+        height: 30px;
+        width: 170px;
+        top: 400px;
+        left: -1290px;
+    }
+
+    .cover-txt h1{
+        width: 170px;
+        height: 30px;
+        font-size: 30px;
+    }
+
+    .mousepadxxl-txt{    
+        height: 30px;
+        top: 430px;
+        left: -1460px;
+    }
+
+    .mousepadxxl-txt h1{
+        height: 30px;
+        font-size: 30px;
+    }
+
+    .tirosing-txt{    
+        height: 30px;
+        top: 460px;
+        left: -1659px;
+    }
+
+    .tirosing-txt h1{
+        height: 30px;
+        font-size: 30px;
+    }
+
+    .stickers-txt{    
+        height: 30px;
+        top: 488px;
+        left: -1761px;
+    }
+
+    .stickers-txt h1{
+        height: 30px;
+        font-size: 30px;
     }
 
 }
