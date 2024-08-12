@@ -864,11 +864,11 @@ img{
         text-align: center;
         justify-content: center;
         margin: auto;
-        margin-top: 185px;
+        margin-top: 80px;
     }
 
     .fr {
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
 
     .fr h1{
@@ -876,15 +876,13 @@ img{
     }
 
     .fr-2 {
-        grid-template-columns: repeat(4, 1fr);
-    }
-
-    .fr-2 h1{
-        font-size: 15px;
+        display: none;
+        visibility: hidden;
     }
 
     .anuncio-uwu-txt{
         font-size: 40px;
+        margin-top: 80px;
     }
 
     .mousepad {
