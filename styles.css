@@ -457,7 +457,6 @@ img{
 }
 
 .fr a{
-
     text-decoration: none;
     color: white;
 }
@@ -524,6 +523,7 @@ img{
 
 .fr-2 h1{
     font-size: 20px;
+    margin-top: 20px;
 }
 
 .fr-2 h1:hover{
@@ -589,14 +589,14 @@ img{
 
 .mousepad{
     position: relative;
-    height: 330px;
-    top: 140px;
-    left: -380px;
+    height: 360px;
+    top: 210px;
+    left: -480px;
 }
 
 .mousepad img{
-    width: 280px;
-    height: 330px;
+    width: 310px;
+    height: 360px;
     transition: 1s;
 }
 
@@ -606,14 +606,14 @@ img{
 
 .cover{
     position: relative;
-    height: 350px;
-    top: 310px;
-    left: -950px;
+    height: 370px;
+    top: 330px;
+    left: -1220px;
 }
 
 .cover img{
-    width: 270px;
-    height: 350px;
+    width: 290px;
+    height: 370px;
     transition: 1s;
 }
 
@@ -625,7 +625,7 @@ img{
     position: relative;
     height: 330px;
     top: 755px;
-    left: -1880px;
+    left: -1930px;
 }
 
 .mousepadxxl img{
@@ -641,7 +641,7 @@ img{
 .tirosing{
     position: relative;
     height: 450px;
-    left: -2500px;
+    left: -2490px;
     top: 300px;
 }
 
@@ -657,14 +657,14 @@ img{
 
 .stickers{
     position: relative;
-    height: 320px;
-    top: 380px;
-    left: -2430px;
+    height: 360px;
+    top: 640px;
+    left: -2030px;
 }
 
 .stickers img{
-    width: 340px;
-    height: 320px;
+    width: 380px;
+    height: 360px;
     transition: 1s;
 }
 
