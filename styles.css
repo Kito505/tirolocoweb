@@ -457,12 +457,14 @@ img{
 }
 
 .fr a{
+
     text-decoration: none;
     color: white;
 }
 
 .fr h1{
     font-size: 20px;
+    margin-top: 20px;
 }
 
 .fr h1:hover{
@@ -537,7 +539,7 @@ img{
     margin: -15px 0;
 }
 
-.fr-2-1 img:hover{
+.fr-2-1a img:hover{
     box-shadow: 0 0 45px var(--tl);
     border: solid 4px rgb(255, 59, 59);
     transition: all 0.6s ease;
@@ -759,7 +761,8 @@ img{
     margin-top: 120px;
 }
 
-@media (max-width: 700px) {
+@media (max-width: 720px){
+
     .navegation{
         font-size: 15px;
         display: flex;
@@ -990,4 +993,227 @@ img{
         font-size: 30px;
     }
 
+}
+
+@media (max-width: 360px) {
+    .navegation{
+        width: 360px;
+    }
+
+    .navegation ul{
+        visibility: hidden;
+    }
+    
+    .navegation ul li{
+        visibility: hidden;
+    }
+
+    .fr {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .fr-2 {
+        display: none;
+        visibility: hidden;
+    }
+
+    .fr-2-1a{
+        display: none;
+        visibility: hidden;
+    }
+
+    .fr-2-2{
+        display: none;
+        visibility: hidden;
+    }
+
+    .fr-2-3{
+        display: none;
+        visibility: hidden;
+    }
+
+    .fr-2-4{
+        display: none;
+        visibility: hidden;
+    }
+
+    .anuncio-uwu-txt {
+        margin-top: 80px;
+    }
+
+    .img-tl {
+        position: relative;
+        right: 0px;
+    }
+
+    .img-lt {
+        position: relative;
+        top: 0px;
+        right: 0px;
+    }
+
+    .img-ptl {
+        position: relative;
+        right: 0px;
+    }
+
+    .img-tlp {
+        position: relative  ;
+        top: 0px;
+        left: 0px;
+    }
+
+    .img-tlch {
+        position: relative;
+        top: 0px;
+        left: 0px;
+    }
+
+    .img-tlr {
+        position: relative;
+        top: 0px;
+        left: 0px;
+    }
+
+    .title-tl{
+        bottom: 0px;
+        right: 0px;
+    }
+    
+    .title-lt{
+        bottom: 0px;
+        right: 0px;
+    }
+    
+    .title-ptl{
+        bottom: 0px;
+        right: 0px;
+    }
+    
+    .title-tlp{
+        bottom: 0px;
+        left: 0px;
+    }
+    
+    .title-tlch{
+        bottom: 0px;
+        left: 0px;
+    }
+    
+    .title-tlr{
+        bottom: 0px;
+        right: 0px;
+    }
+
+    .mousepad {
+        height: 80px;
+        top: 0px;
+        left: -200px;
+    }
+
+    .mousepad img{
+        width: 50px;
+        height: 80px;
+    }
+
+    .cover {
+        height: 80px;
+        left: -200px;
+        top: 0px;
+    }
+
+    .cover img{
+        width: 30px;
+        height: 80px;
+    }
+
+    .mousepadxxl {
+        height: 60px;
+        top: 0px;
+        left: -200px;
+    }
+
+    .mousepadxxl img{
+        width: 80px;
+        height: 60px;
+    }
+
+    .tirosing {
+        height: 20px;
+        left: -240px;
+        top: 0px;
+    }
+
+    .tirosing img{
+        width: 40px;
+        height: 20px;
+    }
+
+    .stickers {
+        height: 70px;
+        left: -300px;
+        top: 0px;
+    }
+
+    .stickers img{
+        width: 90px;
+        height: 70px;
+    }
+
+    .mousepad-txt{    
+        height: 10px;
+        top: 0px;
+        left: -400px;
+    }
+
+    .mousepad-txt h1{
+        height: 10px;
+        font-size: 10px;
+    }
+
+    .cover-txt{    
+        height: 10px;
+        width: 20px;
+        top: 0px;
+        left: -600px;
+    }
+
+    .cover-txt h1{
+        width: 10px;
+        height: 10px;
+        font-size: 10px;
+    }
+
+    .mousepadxxl-txt{    
+        height: 10px;
+        top: 0px;
+        left: -600px;
+    }
+
+    .mousepadxxl-txt h1{
+        height: 10px;
+        font-size: 10px;
+    }
+
+    .tirosing-txt{    
+        height: 10px;
+        top: 0px;
+        left: -590px;
+    }
+
+    .tirosing-txt h1{
+        height: 10px;
+        font-size: 10px;
+    }
+
+    .stickers-txt{    
+        height: 310px;
+        top: 0px;
+        left: -600px;
+    }
+
+    .stickers-txt h1{
+        height: 10px;
+        font-size: 10px;
+    }
 }
