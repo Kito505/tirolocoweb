@@ -759,27 +759,27 @@ img{
     
     .title-lt{
         bottom: -145px;
-        right: 20px;
+        right: 15px;
     }
     
     .title-ptl{
         bottom: 105px;
-        right: -85px;
+        right: -90px;
     }
     
     .title-tlp{
         bottom: -145px;
-        left: -105px;
+        left: -115px;
     }
     
     .title-tlch{
         bottom: -365px;
-        left: 95px;
+        left: 90px;
     }
     
     .title-tlr{
         bottom: -365px;
-        right: -220px;
+        right: -225px;
     }
 
     .slider{
