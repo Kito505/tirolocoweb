@@ -761,225 +761,236 @@ img{
     margin-top: 120px;
 }
 
-@media (max-width: 365px) {
+@media (max-width: 700px){
+
     .navegation{
-        width: 360px;
+        font-size: 15px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        height: 60px;
+        padding: 20px 0;
+        background-color: rgba(0, 0, 0, 0.356);
     }
 
-    .navegation ul{
-        visibility: hidden;
-    }
-    
-    .navegation ul li{
-        visibility: hidden;
+    .ch-ico{
+        background-image: url(img/Banner\ Trasero\ de\ los\ Canales\ -\ 630.png);
     }
 
-    .fr {
-        grid-template-columns: repeat(2, 1fr);
+    .ch-ico img{
+        width: 130px;
     }
 
-    .fr-2 {
-        display: none;
-        visibility: hidden;
-    }
-
-    .fr-2-1a{
-        display: none;
-        visibility: hidden;
-    }
-
-    .fr-2-2{
-        display: none;
-        visibility: hidden;
-    }
-
-    .fr-2-3{
-        display: none;
-        visibility: hidden;
-    }
-
-    .fr-2-4{
-        display: none;
-        visibility: hidden;
-    }
-
-    .anuncio-uwu-txt {
-        margin-top: 80px;
+    .ch-title a{
+        font-size: 19px;
     }
 
     .img-tl {
         position: relative;
-        right: 0px;
+        right: -100px;
     }
 
     .img-lt {
         position: relative;
-        top: 0px;
-        right: 0px;
+        top: 250px;
+        right: 30px;
     }
 
     .img-ptl {
         position: relative;
-        right: 0px;
+        right: -105px;
     }
 
     .img-tlp {
         position: relative  ;
-        top: 0px;
-        left: 0px;
+        top: 250px;
+        left: -30px;
     }
 
     .img-tlch {
         position: relative;
-        top: 0px;
-        left: 0px;
+        top: 360px;
+        left: 107px;
     }
 
     .img-tlr {
         position: relative;
-        top: 0px;
-        left: 0px;
+        top: 360px;
+        left: 235px;
     }
 
     .title-tl{
-        bottom: 0px;
-        right: 0px;
+        bottom: 105px;
+        right: -110px;
     }
     
     .title-lt{
-        bottom: 0px;
+        bottom: -145px;
         right: 0px;
     }
     
     .title-ptl{
-        bottom: 0px;
-        right: 0px;
+        bottom: 105px;
+        right: -115px;
     }
     
     .title-tlp{
-        bottom: 0px;
-        left: 0px;
+        bottom: -145px;
+        left: -60px;
     }
     
     .title-tlch{
-        bottom: 0px;
-        left: 0px;
+        bottom: -365px;
+        left: 105px;
     }
     
     .title-tlr{
-        bottom: 0px;
-        right: 0px;
+        bottom: -365px;
+        right: -240px;
+    }
+
+    .slider{
+        visibility: hidden;
+    }
+
+    .ch-h-v{
+        display: flex;
+        text-align: center;
+        justify-content: center;
+        margin: auto;
+        margin-top: 185px;
+    }
+
+    .fr {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .fr h1{
+        font-size: 15px;
+    }
+
+    .fr-2 {
+        grid-template-columns: repeat(4, 1fr);
+    }
+
+    .fr-2 h1{
+        font-size: 15px;
+    }
+
+    .anuncio-uwu-txt{
+        font-size: 40px;
     }
 
     .mousepad {
-        height: 80px;
-        top: 0px;
-        left: -200px;
+        height: 180px;
+        top: 170px;
+        left: -180px;
     }
 
     .mousepad img{
-        width: 50px;
-        height: 80px;
+        width: 150px;
+        height: 180px;
     }
 
     .cover {
-        height: 80px;
-        left: -200px;
-        top: 0px;
+        height: 180px;
+        left: -480px;
+        top: 80px;
     }
 
     .cover img{
-        width: 30px;
-        height: 80px;
+        width: 130px;
+        height: 180px;
     }
 
     .mousepadxxl {
-        height: 60px;
-        top: 0px;
-        left: -200px;
+        height: 160px;
+        top: 365px;
+        left: -880px;
     }
 
     .mousepadxxl img{
-        width: 80px;
-        height: 60px;
+        width: 280px;
+        height: 160px;
     }
 
     .tirosing {
-        height: 20px;
-        left: -240px;
-        top: 0px;
+        height: 200px;
+        left: -1150px;
+        top: 165px;
     }
 
     .tirosing img{
-        width: 40px;
-        height: 20px;
+        width: 120px;
+        height: 200px;
     }
 
     .stickers {
-        height: 70px;
-        left: -300px;
-        top: 0px;
+        height: 170px;
+        left: -1160px;
+        top: 180px;
     }
 
     .stickers img{
-        width: 90px;
-        height: 70px;
+        width: 190px;
+        height: 170px;
     }
 
     .mousepad-txt{    
-        height: 10px;
-        top: 0px;
-        left: -400px;
+        height: 30px;
+        top: 370px;
+        left: -1155px;
     }
 
     .mousepad-txt h1{
-        height: 10px;
-        font-size: 10px;
+        height: 30px;
+        font-size: 30px;
     }
 
     .cover-txt{    
-        height: 10px;
-        width: 20px;
-        top: 0px;
-        left: -600px;
+        height: 30px;
+        width: 170px;
+        top: 400px;
+        left: -1290px;
     }
 
     .cover-txt h1{
-        width: 10px;
-        height: 10px;
-        font-size: 10px;
+        width: 170px;
+        height: 30px;
+        font-size: 30px;
     }
 
     .mousepadxxl-txt{    
-        height: 10px;
-        top: 0px;
-        left: -600px;
+        height: 30px;
+        top: 430px;
+        left: -1460px;
     }
 
     .mousepadxxl-txt h1{
-        height: 10px;
-        font-size: 10px;
+        height: 30px;
+        font-size: 30px;
     }
 
     .tirosing-txt{    
-        height: 10px;
-        top: 0px;
-        left: -590px;
+        height: 30px;
+        top: 460px;
+        left: -1659px;
     }
 
     .tirosing-txt h1{
-        height: 10px;
-        font-size: 10px;
+        height: 30px;
+        font-size: 30px;
     }
 
     .stickers-txt{    
-        height: 310px;
-        top: 0px;
-        left: -600px;
+        height: 30px;
+        top: 488px;
+        left: -1761px;
     }
 
     .stickers-txt h1{
-        height: 10px;
-        font-size: 10px;
+        height: 30px;
+        font-size: 30px;
     }
+
 }
