@@ -769,6 +769,10 @@ img{
         padding: 0;
     }
 
+    body {
+        width: 700px;
+    }
+
     .navegation{
         font-size: 15px;
         display: flex;
